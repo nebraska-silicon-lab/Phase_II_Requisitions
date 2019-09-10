@@ -1,0 +1,37 @@
+
+vendor:
+  name: "Amazon"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "amazon.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Lab organization and supplies for
+  TFPX assembly project.
+
+
+
+cost_object:
+submission_date: Sept. 10, 2019
+delivery_date: Sept. 17, 2019
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  B0051QIKPU:
+    desc: DEWALT DWST24075R Tote with Removable Organizer
+    quantity: 1
+    unit_price: 45.46
+  B003P2UOCO:
+    desc: Akro-Mils 10144 D 20-Inch by 16-Inch by 6-1/2-Inch Hardware and Craft Cabinet, Black
+    unit_price: 32.39
+  B0044FFM8W:
+    desc: Trimaco 35145/64 36-inch x 167-feet Red Rosin Paper, (Regular Weight)
+    unit_price: 18.97
