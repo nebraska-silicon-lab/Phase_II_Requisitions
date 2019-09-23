@@ -3,7 +3,8 @@
   yml2xls.py
 
   Uses information in a YAML source file to fill out a UNL Physics Dept.
-  Requisition form.
+  Requisition form. If the YAML file has more items than can fit on a
+  single form, more forms are automatically added.
 
   Requires: openpyxl, PyYAML
 """
@@ -23,19 +24,6 @@ def chunks(d, n):
     for i in range(0, len(lst), n):
         cs.append({k: v for (k, v) in lst[i : i + n]})
     return cs
-
-
-def sanitize_filename(filename, ext=None):
-    import string
-
-    allowed_chars = set(string.digits + string.ascii_letters + ".- ")
-    sane_fname = [c for c in filename if c in allowed_chars]
-    sane_fname = "".join(sane_fname).strip()
-    sane_fname = sane_fname.replace(" ", "_")
-    if ext is not None:
-        return "{}.{}".format(sane_fname, ext)
-    else:
-        return sane_fname
 
 
 class UNLRequisition:
@@ -100,11 +88,6 @@ class UNLRequisition:
         ws["A52"] = "Sheet {} of {}".format(i, n)
 
     def save_form(self):
-        """
-        Creates a zip file containing the one or more xlsx formatted
-        requisitions as required by UNL Physics purchasing. Creates the file
-        in memory and then returns it as bytes.
-        """
         parts_chunked = chunks(self.src["items"], 10)
         for i, parts_chunk in enumerate(parts_chunked):
             self.fetch_empty_form()
@@ -124,7 +107,7 @@ if __name__ == "__main__":
     from argparse import ArgumentParser
 
     parser = ArgumentParser("yml2xls")
-    parser.add_argument("input_file")
+    parser.add_argument("input_file", help="A YAML file specifying the order items")
 
     args = parser.parse_args()
 
