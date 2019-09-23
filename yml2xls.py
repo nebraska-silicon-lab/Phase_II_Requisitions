@@ -6,7 +6,7 @@
   Requisition form. If the YAML file has more items than can fit on a
   single form, more forms are automatically added.
 
-  Requires: openpyxl, PyYAML
+  Requires: openpyxl, PyYAML, Libreoffice (for pdf output)
 """
 import io
 from urllib.request import urlopen
@@ -31,9 +31,10 @@ class UNLRequisition:
 
     def __init__(self, src_filename):
         self.name = splitext(src_filename)[0]
+        self.fnames = []
 
         with open(src_filename, "r") as f:
-            self.src = yaml.load(f)
+            self.src = yaml.safe_load(f)
 
     def fetch_empty_form(self):
         """
@@ -96,20 +97,42 @@ class UNLRequisition:
             self.place_sheet_number(i + 1, len(parts_chunked))
 
             if len(parts_chunked) > 1:
-                fname = f"{self.name}_{i:02d}.xlsx"
+                self.fnames.append(f"{self.name}_{i:02d}.xlsx")
             else:
-                fname = f"{self.name}.xlsx"
-            with open(fname, "wb") as f:
+                self.fnames.append(f"{self.name}.xlsx")
+            with open(self.fnames[-1], "wb") as f:
                 f.write(save_virtual_workbook(self.workbook))
 
 
-if __name__ == "__main__":
+def main():
     from argparse import ArgumentParser
 
     parser = ArgumentParser("yml2xls")
     parser.add_argument("input_file", help="A YAML file specifying the order items")
+    parser.add_argument("--pdf", action="store_true")
 
     args = parser.parse_args()
 
     form = UNLRequisition(args.input_file)
     form.save_form()
+
+    if args.pdf:
+        from subprocess import call
+        from os import remove
+
+        print("Converting output to pdf")
+        for fname in form.fnames:
+            retcode = call(["libreoffice", "--convert-to", "pdf", fname])
+            if retcode == 0:  # Success
+                remove(fname)
+            else:
+                print(
+                    (
+                        "Failed to convert the form to pdf. "
+                        "Is Libreoffice installed and available on PATH?"
+                    )
+                )
+
+
+if __name__ == "__main__":
+    main()
