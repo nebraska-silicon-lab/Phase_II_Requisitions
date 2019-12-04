@@ -1,0 +1,29 @@
+
+vendor:
+  name: "kaptontape.com"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: "310-787-0998"
+  fax: "310-787-0854"
+  url: "kaptontape.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Assembly of thermal mockup ETL modules
+
+
+cost_object: 26-0521-0189-001
+submission_date: Dec. 4, 2019
+delivery_date: Dec 11, 2019
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "KPT-1 1/2":
+    desc: 1 1/2 inch x 36 yds, Kapton Tape
+    quantity: 1
+    unit_price: 32.90
