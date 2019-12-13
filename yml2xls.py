@@ -88,7 +88,10 @@ class UNLRequisition:
 
     def place_sheet_number(self, i, n):
         ws = self.workbook.active
-        ws["A52"] = "Sheet {} of {}".format(i, n)
+        if self.src.get("note") and i == 1:
+            ws["A52"] = f"{self.src['note']}\nSheet {i} of {n}"
+        else:
+            ws["A52"] = f"Sheet {i} of {n}"
 
     def save_form(self):
         parts_chunked = chunks(self.src["items"], 10)
