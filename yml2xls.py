@@ -56,10 +56,12 @@ class UNLRequisition:
         city = src["vendor"].get("city", "")
         state = src["vendor"].get("state", "")
         zip = src["vendor"].get("zip", "")
-        ws["B16"] = f"{city}, {state} {zip}"
+        if city:
+            ws["B16"] = f"{city}, {state} {zip}"
         contact_name = src["vendor"].get("contact_name", "")
         contact_phone = src["vendor"].get("contact_phone", "")
-        ws["B24"] = f"{contact_name}, {contact_phone}"
+        if contact_name:
+            ws["B24"] = f"{contact_name}, {contact_phone}"
         ws["B22"] = src["vendor"].get("phone", "")
         ws["F22"] = src["vendor"].get("fax", "")
         ws["B26"] = src["vendor"].get("url", "")
