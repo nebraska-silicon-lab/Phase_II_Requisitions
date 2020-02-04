@@ -1,0 +1,28 @@
+
+vendor:
+  name: "Startech.com"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "https://startech.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Power strip for pixel module construction electronics
+
+cost_object: 26-0521-0175-005
+submission_date: Feb. 4, 2020
+delivery_date: Feb. 18, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "RKPW081915":
+    desc: Rackmount PDU with 8 Outlets and Surge Protection - 1U
+    quantity: 1
+    unit_price: 77.99
