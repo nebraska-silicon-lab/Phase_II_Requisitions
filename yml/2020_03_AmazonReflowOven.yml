@@ -1,0 +1,33 @@
+
+vendor:
+  name: "Amazon.com"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "https://amazon.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Solder reflow oven for fabricating custom electronics
+
+cost_object: TBD
+submission_date: March 3, 2020
+delivery_date: March 12, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "B0152FTXN2":
+    desc: Happybuy T962 Reflow Oven Infrared IC Heater Soldering Machine 800W 180 x 235 mm SMD SMT BGA Soldering Automatic
+    quantity: 1
+    unit_price: 274.99
+  "B017RSZFQQ":
+    desc:  No Clean SnPb Leaded Solder Paste 15 Grams 
+    quantity: 1
+    unit_price: 10.99
+
