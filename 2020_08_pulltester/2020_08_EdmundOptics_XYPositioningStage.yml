@@ -1,0 +1,33 @@
+
+vendor:
+  name: "Edmund Optics"
+  address: "101 East Gloucester Pike"
+  city: "Barrington"
+  state: "NJ"
+  zip: "08007"
+  phone: "1-800-363-1992"
+  fax: ""
+  url: "www.edmundoptics.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  ETL Module durability testing
+
+
+cost_object: 26-0521-0189-001
+submission_date: August 28, 2020
+delivery_date: September 10, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "12-694":
+    desc: "125mm X-Y Positioning Stage"
+    quantity: 1
+    unit_price: 450
+  "12-692":
+    desc: "125mm Metric Top Plate"
+    quantity: 1
+    unit_price: 45

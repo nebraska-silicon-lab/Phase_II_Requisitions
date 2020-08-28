@@ -1,0 +1,33 @@
+
+vendor:
+  name: "Wagner Instruments"
+  address: "Post Office Box 1217"
+  city: "Greenwich"
+  state: "CT"
+  zip: "06836"
+  phone: "203-698-9681"
+  fax: "203-698-9696"
+  url: "www.wagnerinstruments.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  ETL Module durability testing
+
+
+cost_object: 26-0521-0189-001
+submission_date: August 28, 2020
+delivery_date: September 10, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "MARK-10 M5-2":
+    desc: "MARK-10 M5 Digital Force Gage"
+    quantity: 1
+    unit_price: 1095
+  "FTK100L":
+    desc: "FORCE TEST™ FTK100 Compact Force Test Stand"
+    quantity: 1
+    unit_price: 595
