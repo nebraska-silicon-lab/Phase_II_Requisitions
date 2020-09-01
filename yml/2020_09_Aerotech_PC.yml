@@ -1,0 +1,29 @@
+
+vendor:
+  name: "Aerotech"
+  address: "101 Zeta Drive"
+  city: "Pittsburgh"
+  state: "PA"
+  zip: "15238"
+  phone: "+1-412-963-7470"
+  fax: ""
+  url: "www.aerotech.com"
+  contact_name: "Roger Burg <rburg@aerotech.com>"
+  contact_phone: "734.604.7786"
+
+use_for_project: |
+  Automated silicon detector module assembly
+
+
+cost_object: ---
+submission_date: September 1, 2020
+delivery_date: September 10, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "A3200-iPC-R402-SW00-OS03-MB02-AB00-HMI00-LC1":
+    desc: "A3200-iPC - Intelligent Machine Controller Industrial PC"
+    quantity: 1
+    unit_price: 4945

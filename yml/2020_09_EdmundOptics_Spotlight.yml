@@ -1,0 +1,29 @@
+
+vendor:
+  name: "Edmund Optics"
+  address: "101 East Gloucester Pike"
+  city: "Barrington"
+  state: "NJ"
+  zip: "08007"
+  phone: "1-800-363-1992"
+  fax: ""
+  url: "www.edmundoptics.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Illumination for Silicon Module Automated assembly
+
+
+cost_object: ---
+submission_date: September 1, 2020
+delivery_date: September 10, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "34-217":
+    desc: "White, MicroBrite™ LED Spot Light"
+    quantity: 1
+    unit_price: 325
