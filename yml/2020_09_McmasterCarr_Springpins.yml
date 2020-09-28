@@ -1,0 +1,29 @@
+
+vendor:
+  name: "Mcmaster-Carr"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "https://www.mcmaster.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Gantry eqipment for silicon module assembly
+
+
+cost_object: 25-0521-0195-003
+submission_date: September 28, 2020
+delivery_date: October 1, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "84985A58":
+    desc: "18-8 Stainless Steel Slotted Long-Nose Spring Plunger (Without Thread Locker)"
+    quantity: 9
+    unit_price: 4.60
