@@ -1,0 +1,53 @@
+
+vendor:
+  name: "Digikey"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "https://digikey.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Thermal testing of MTD service hybrid
+
+
+cost_object: 26-0521-0189-001
+submission_date: Nov. 18, 2020
+delivery_date: Nov. 25, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "WM3699CT-ND":
+    desc: CONN HEADER SMD 10POS 2.54MM
+    quantity: 3
+    unit_price: 2.70
+  "WM4879-ND":
+    desc: CONN HOUSING FEMALE 10POS DUAL
+    quantity: 3
+    unit_price: 1.38
+  "WM2564-ND": # Contacts for connector housing
+    desc: CONN SOCKET 22-24AWG CRIMP GOLD
+    quantity: 25
+    unit_price: 0.2112
+  "WM2547-ND": # Shroud for connector housing
+    desc: CONN 2.54MM INTERIM CLIP 10CIR
+    quantity: 3
+    unit_price: 1.52
+  "PT91XCT-ND":
+    desc: RES SMD 91 OHM 5% 1W 2512
+    quantity: 100
+    unit_price: 0.1577
+  "455-1788-1-ND":
+    desc: CONN HEADER SMD 2POS 1MM
+    quantity: 25
+    unit_price: 0.456
+  "455-3001-ND":
+    desc: JUMPER 02SR-3S -02SR-3S 6"
+    quantity: 25
+    unit_price: 0.8956
