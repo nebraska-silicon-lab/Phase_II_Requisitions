@@ -1,0 +1,29 @@
+
+vendor:
+  name: "Thor Labs"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "thorlabs.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Studies of gluing ETL modules
+
+
+cost_object: 26-0521-0189-001
+submission_date: Dec. 9, 2020
+delivery_date: Dec. 23, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "CG15KH1":
+    desc: Precision Cover Glasses, \#1.5H Thickness, 24 x 50 mm, Pack of 100 
+    quantity: 1
+    unit_price: 36.07

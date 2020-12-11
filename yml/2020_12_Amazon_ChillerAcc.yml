@@ -1,0 +1,36 @@
+vendor:
+  name: "Amazon.com"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "amazon.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Studies of ETL modules thermal properties
+
+
+cost_object: 26-0521-0189-001
+submission_date: Dec. 11, 2020
+delivery_date: Dec. 23, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "B071NBJJ2Q":
+    desc: Helect (NOT for Human) Infrared Thermometer, Non-Contact Digital Laser Temperature Gun -58°F to 1022°F (-50°C to 550°C) with LCD Display
+    quantity: 1
+    unit_price: 19.98
+  "B07WFKZ745":
+    desc: SMARTSMITH Antifreeze Refractometer Displaying in Fahrenheit for Checking Freezing Point of Automobile Antifreeze Systems and Battery Fluid Condition. Battery Acid, Glycol, Coolant, Antifreeze Tester
+    quantity: 1
+    unit_price: 19.99
+  "B003D7K8E0":
+    desc: Dixon Valve TTB75 PTFE Industrial Sealant Tape, -212 to 500 Degree F Temperature Range, 3.5mil Thick, 520" Length, 3/4" Width, White
+    quantity: 1
+    unit_price: 2.38
