@@ -1,0 +1,28 @@
+vendor:
+  name: "Amazon.com"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "amazon.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Studies of ETL modules thermal properties
+
+
+cost_object: 26-0521-0189-001
+submission_date: Jan 13, 2020
+delivery_date: Jan 20, 2020
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "B01N7NCJ18":
+    desc: 1/2" Ag ISO 5675 Hydraulic Quick Connect Tractor Couplers, Ball Pioneer Style w/Dust Caps, 2 Sets
+    quantity: 1
+    unit_price: 31.95
