@@ -1,0 +1,29 @@
+
+vendor:
+  name: "Servometer"
+  address: "501 Little Falls Road"
+  city: "Cedar Grove"
+  state: "NJ"
+  zip: "07009"
+  phone: "(973) 785-4630"
+  fax: ""
+  url: "servometer.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  ETL Module assembly tooling
+
+
+cost_object: 26-0521-0189-001
+submission_date: Jan 19, 2021
+delivery_date: Feb 2, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "FC-13":
+    desc: Electroformed Metal Bellows - Standard Size FC-13
+    quantity: 6
+    unit_price: 48.03
