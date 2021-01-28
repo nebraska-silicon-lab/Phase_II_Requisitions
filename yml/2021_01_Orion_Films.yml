@@ -1,0 +1,38 @@
+
+vendor:
+  name: "Orion Industries Incorporated"
+  address: "One Orion Park Drive"
+  city: "Ayer"
+  state: "MA"
+  zip: "01432"
+  phone: "978-772-6000"
+  fax: "978-771-0021"
+  url: "Orionindustries.com"
+  contact_name: "Ryan McCrillis"
+  contact_phone: "978-772-6000 ext.135"
+
+use_for_project: |
+  ETL Module thermal testing
+
+
+cost_object: 26-0521-0189-001
+submission_date: Jan 29, 2021
+delivery_date: Feb 15, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+note: See attached quote for additional information. This requisition includes line items 2, 4, 5 and 6 from that quote.
+
+items:
+  "1":
+    desc: "FERMI, F10110888, R. - | Material: 0.010\" TPCM 5810"
+    quantity: 20
+    unit_price: 12.50
+  "2":
+    desc: "FERMI, F10150893, R. - | Material: 0.010\" TPCM 5810"
+    quantity: 5
+    unit_price: 45.00
+  "H20":
+    desc: "NRE - WATERJET PROGRAMMING FEE"
+    quantity: 2
+    unit_price: 45
