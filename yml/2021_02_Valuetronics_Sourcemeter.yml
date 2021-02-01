@@ -1,0 +1,29 @@
+
+vendor:
+  name: "Valuetronics"
+  address: "1675 Cambridge Drive"
+  city: "Elgin"
+  state: "IL"
+  zip: "60123"
+  phone: "800-552-8258"
+  fax: "847-717-6121"
+  url: "valuetronics.com"
+  contact_name: "Dan Karpinski"
+  contact_phone: ""
+
+use_for_project: |
+  TFPX module testing
+
+
+cost_object: 25-0521-0195-003
+submission_date: Feb 1, 2021
+delivery_date: Feb 10, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "2410-NEW":
+    desc: Keithley 2410 Sourcemeter
+    quantity: 1
+    unit_price: 7500
