@@ -1,0 +1,28 @@
+vendor:
+  name: "Amazon.com"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "amazon.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  TFPX module dry storage monitoring
+
+
+cost_object: 25-0521-0195-003
+submission_date: Feb 1, 2021
+delivery_date: Feb 10, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "B0872X4H4J":
+    desc: Govee Indoor Hygrometer Thermometer 2 Pack, Smart Humidity Temperature Gauge with Large LCD Display...
+    quantity: 1
+    unit_price: 19.99
