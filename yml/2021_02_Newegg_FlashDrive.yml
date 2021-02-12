@@ -1,0 +1,37 @@
+
+vendor:
+  name: "Newegg"
+  address: "18045 Rowland Street"
+  city: "City of Industry"
+  state: "CA"
+  zip: "91748"
+  phone: ""
+  fax: ""
+  url: "newegg.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  TFPX Module assembly software backup
+
+
+cost_object: 26-0521-0195-003
+submission_date: Feb 12, 2021
+delivery_date: Feb 18, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "N82E16820147703":
+    desc: "SAMSUNG 128GB BAR Plus (Metal) USB 3.1 Flash Drive, Speed Up to 300MB/s (MUF-128BE4/AM)"
+    quantity: 2
+    unit_price: 22.99
+  "N82E16812228003":
+    desc: "Tripp Lite U324-006 Blue USB 3.0 SuperSpeed Extension Cable (AA M/F), 6 ft."
+    quantity: 1
+    unit_price: 7.39
+  "9SIAMCEC8B5762":
+    desc: "TOPK 2 Pack 7 Clips Cable Management Cable Organizer and Wall Mounted Wire Holder Cable Winder Clips Cord Holder Wire Organizer with Strong Adhesive Tapes- Black"
+    quantity: 1
+    unit_price: 8.99
