@@ -1,0 +1,33 @@
+
+vendor:
+  name: "Edmund Optics"
+  address: "101 East Gloucester Pike"
+  city: "Barrington"
+  state: "NJ"
+  zip: "08007"
+  phone: "1-800-363-1992"
+  fax: ""
+  url: "www.edmundoptics.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Vision system for wirebond pull tester
+
+
+cost_object: 26-0521-0189-001
+submission_date: February 18, 2021
+delivery_date: February 25, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "86-718":
+    desc: "10X - 200X USB Digital Microscope, High Resolution"
+    quantity: 1
+    unit_price: 350
+  "86-171":
+    desc: "Flex Arm Stand"
+    quantity: 1
+    unit_price: 85
