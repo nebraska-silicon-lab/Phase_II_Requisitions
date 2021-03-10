@@ -1,0 +1,37 @@
+
+vendor:
+  name: "Mouser Electronics"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "mouser.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  FC7 Module test equipment accessories
+
+
+cost_object: 26-0521-0195-003
+submission_date: March 10, 2021
+delivery_date: March 17, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "709-GST90A12-P1M":
+    desc: Desktop AC Adapters 80W 12V 6.67A Level VI 2.5x5.5plug
+    quantity: 1
+    unit_price: 33.34
+  "467-SDSDQAB-016G-J":
+    desc: Memory Cards 16GB UHS Class 4 MicroSD w/Jewel Case
+    quantity: 4
+    unit_price: 11.43
+  "485-939":
+    desc: Memory IC Development Tools USB MicroSD Card Reader/Writer
+    quantity: 1
+    unit_price: 5.95
