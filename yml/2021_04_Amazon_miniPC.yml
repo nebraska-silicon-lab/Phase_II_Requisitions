@@ -1,0 +1,28 @@
+vendor:
+  name: "Amazon.com"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "amazon.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  ETL module cold testing control
+
+
+cost_object: 26-0521-0189-001
+submission_date: April 5, 2021
+delivery_date: April 12, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "B07VDGJNKB":
+    desc: Windows 10 Mini PC, Z83-V Upgraded 4GB/64GB eMMC Intel Quad-Core Atom x5-Z8350 ...
+    quantity: 1
+    unit_price: 149.99
