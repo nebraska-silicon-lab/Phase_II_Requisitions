@@ -1,0 +1,38 @@
+
+vendor:
+  name: "Amazon"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "amazon.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+    Laptop and accessories for research-related office work
+
+
+
+cost_object: 26-0521-0189-001
+submission_date: April 26, 2021
+delivery_date: May 5, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  B08S5YW38P:
+    desc: Lenovo ThinkPad T14s Gen 1 14" Ryzen 7 PRO 4750U 8 Cores, FHD...
+    quantity: 1
+    unit_price: 1489
+  B07R68XHZ9:
+    desc: Lenovo USA Lenovo ThinkPad USB-C Dock Gen 2 (40AS0090US)
+    quantity: 1
+    unit_price: 152
+  B08XXLXWV8:
+    desc: Logitech C925-e Webcam with HD Video and Built-in Stereo Microphones...
+    quantity: 1
+    unit_price: 132.52
