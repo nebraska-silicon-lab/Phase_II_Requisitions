@@ -109,6 +109,7 @@ class UNLRequisition:
                 f.write(save_virtual_workbook(self.workbook))
 
 
+
 def main():
     from argparse import ArgumentParser
 
@@ -124,10 +125,20 @@ def main():
     if args.pdf:
         from subprocess import call
         from os import remove
+        from shutil import which
 
         print("Converting output to pdf")
+
+        for cand_exe in ["libreoffice", "scalc"]:
+            if (exe := which(cand_exe)) :
+                print(exe)
+                break
+        else:
+            print("Libreoffice not found in PATH")
+            return
+
         for fname in form.fnames:
-            retcode = call(["libreoffice", "--convert-to", "pdf", fname])
+            retcode = call([exe, "--convert-to", "pdf", fname])
             if retcode == 0:  # Success
                 remove(fname)
             else:
