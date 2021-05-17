@@ -1,0 +1,33 @@
+
+vendor:
+  name: "Mcmaster-Carr"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "https://www.mcmaster.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Insulation for ETL module thermal testing
+
+
+cost_object: 26-0521-0189-001
+submission_date: May 17, 2021
+delivery_date: May 20, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "54325K112":
+    desc: "Polyethylene Foam Pipe Insulation Slit Tube 3/8\" Thickness,-295 Degree to 200 Degree F Temperature, Black, 1/2\" ID"
+    quantity: 4
+    unit_price: 2.85
+  "8694K83":
+    desc: "Light Duty Blended EPDM Foam Strip with Adhesive Back, 1\" Wide, 3/8\" Thick, 25 Feet Long"
+    quantity: 1
+    unit_price: 12.08
