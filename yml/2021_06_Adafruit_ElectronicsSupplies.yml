@@ -1,0 +1,65 @@
+
+vendor:
+  name: "Adafruit"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "adafruit.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Electronics work for ETL module development and assembly
+
+
+cost_object: 26-0521-0189-001
+submission_date: June 8, 2021
+delivery_date: June 15, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  149:
+    desc: "Solder wick - 1.5mm wide and 1.5m / 5 feet long"
+    quantity: 1
+    unit_price: 3.00
+  4559:
+    desc: "Pre-Cut Multi-Colored Heat Shrink Pack Kit - 280 pcs"
+    quantity: 1
+    unit_price: 9.95
+  1250:
+    desc: "Hakko Soldering Tip: T18-D16 Screwdriver - For Lead or Lead-Free"
+    quantity: 1
+    unit_price: 7.95
+  1248:
+    desc: "Hakko Soldering Tip: T18-C2 Hoof - For Lead or Lead-Free Use"
+    quantity: 1
+    unit_price: 7.95
+  3529:
+    desc: "Hobby Creek Mag Hand Professional Workstation"
+    quantity: 1
+    unit_price: 64.95
+  1172:
+    desc: "Hakko Brass Sponge Solder Tip Cleaner"
+    quantity: 1
+    unit_price: 10.95
+  3540:
+    desc: "Square 60mm x 60mm Soldering Sponge – 3 Pack"
+    quantity: 1
+    unit_price: 2.50
+  3468:
+    desc: "Chip Quik No-Clean Liquid Flux Pen – 10ml Pen w/ Tip - CQ4LF"
+    quantity: 1
+    unit_price: 7.95
+  422:
+    desc: "Fine tip curved tweezers - ESD safe - 120mm"
+    quantity: 1
+    unit_price: 3.95
+  796:
+    desc: "Bi-Fold Compartment Parts Box"
+    quantity: 4
+    unit_price: 3.95
