@@ -1,0 +1,28 @@
+vendor:
+  name: "ULINE"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "uline.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Studies of ETL modules thermal properties
+
+
+cost_object: 26-0521-0189-001
+submission_date: June 11, 2021
+delivery_date: June 18, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "S-19507BLU":
+    desc: Insulated Foam Shipping Kit - 17 x 17 x 9"
+    quantity: 1
+    unit_price: 41
