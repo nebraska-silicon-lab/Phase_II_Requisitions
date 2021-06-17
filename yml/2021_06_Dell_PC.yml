@@ -1,0 +1,29 @@
+vendor:
+  name: "Dell"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "dell.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Testing of ETL Modules and operation of thermal test stand
+
+note: See attached quote for additional details.
+
+cost_object: 26-0521-0189-001
+submission_date: June 17, 2021
+delivery_date: July 15, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "-":
+    desc: Optiplex 7090 Tower
+    quantity: 1
+    unit_price: 1087.53
