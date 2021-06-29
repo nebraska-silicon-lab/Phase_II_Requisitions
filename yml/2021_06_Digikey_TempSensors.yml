@@ -1,0 +1,29 @@
+
+vendor:
+  name: "Digikey"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "https://digikey.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+  Thermal testing of MTD service hybrid
+
+
+cost_object: 26-0521-0189-001
+submission_date: June 29, 2021
+delivery_date: July 6, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "DS18B20+T&RCT-ND":
+    desc: SENSOR DIGITAL -55C-125C TO92-3
+    quantity: 25
+    unit_price: 3.564
