@@ -1,0 +1,34 @@
+
+vendor:
+  name: "Orion Industries Incorporated"
+  address: "One Orion Park Drive"
+  city: "Ayer"
+  state: "MA"
+  zip: "01432"
+  phone: "978-772-6000"
+  fax: "978-771-0021"
+  url: "Orionindustries.com"
+  contact_name: "Ryan McCrillis"
+  contact_phone: "978-772-6000 ext.135"
+
+use_for_project: |
+  ETL Module thermal testing
+
+
+cost_object: 26-0521-0189-001
+submission_date: June 30, 2021
+delivery_date: July 14, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+note: See attached quote for additional information.
+
+items:
+  "A21625":
+    desc: "FERMI, F10110888, R. -"
+    quantity: 20
+    unit_price: 13.50
+  "A21626":
+    desc: "FERMI, F10150893, R. -"
+    quantity: 5
+    unit_price: 54.00
