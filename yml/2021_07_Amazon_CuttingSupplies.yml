@@ -1,0 +1,38 @@
+
+vendor:
+  name: "Amazon"
+  address: ""
+  city: ""
+  state: ""
+  zip: ""
+  phone: ""
+  fax: ""
+  url: "amazon.com"
+  contact_name: ""
+  contact_phone: ""
+
+use_for_project: |
+    Scissors and cutting mat for cutting Tyvek for milliQan detectors
+
+
+
+cost_object: 21-0521-4139
+submission_date: July 13, 2021
+delivery_date: July 20, 2021
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  B07MPB4GN4:
+    desc: WORKLION 24" x 36" Large Self Healing PVC Cutting Mat...
+    quantity: 1
+    unit_price: 36.90
+  B01BRGU8R0:
+    desc: Amazon Basics Multipurpose, Comfort Grip, Titanium Fused...
+    quantity: 1
+    unit_price: 9.54
+  B07VCZRGM1:
+    desc: 12 Pairs White Cotton Gloves for Dry Hands, SPA Gloves Inspection Gloves
+    quantity: 1
+    unit_price: 10.99
