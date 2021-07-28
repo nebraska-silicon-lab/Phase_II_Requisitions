@@ -1,0 +1,29 @@
+
+vendor:
+  name: "Aerotech"
+  address: "101 Zeta Drive"
+  city: "Pittsburgh"
+  state: "PA"
+  zip: "15238"
+  phone: "+1-412-963-7470"
+  fax: ""
+  url: "www.aerotech.com"
+  contact_name: "Shelley Gothart-Boring"
+  contact_phone: ""
+
+use_for_project: |
+  Repair of gantry z-axis motor
+
+
+cost_object: 26-0521-0195-003
+submission_date: July 28, 2021
+delivery_date: N/A
+requestor_name: Caleb Fangmeier
+requestor_phone: (402)768-1358
+supervisor_name: Frank Golf
+
+items:
+  "RMA 17345":
+    desc: "RMA 17345"
+    quantity: 1
+    unit_price: 360
