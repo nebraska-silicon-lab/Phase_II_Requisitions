@@ -1,3 +1,5 @@
+## **Note: Use of this repository has been superseded by the lablog at https://nebraskadetectorlab.com/requisitions .**
+
 # Phase_II_Requisitions
 
 Archive of Phase II module assembly (Both ETL and TFPX) requisitions and quotes.
